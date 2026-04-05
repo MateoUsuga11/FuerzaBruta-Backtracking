@@ -1,0 +1,3 @@
+C:/Users/Usuario/Documents/MateoUsuga/EjercicioBacktracking/cmake-build-debug/CMakeFiles/EjercicioBacktracking.dir
+C:/Users/Usuario/Documents/MateoUsuga/EjercicioBacktracking/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/Documents/MateoUsuga/EjercicioBacktracking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
