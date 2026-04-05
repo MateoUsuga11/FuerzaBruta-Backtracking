@@ -13,9 +13,9 @@ vector<int> primeraSolucion;
 bool EsSeguro(int v,int c){
     for (int u=0; u < n; u++) {
         if (matriz_ady[v][u] == 1 && color[u] == c)
-            return false;
+            return false; // un vecino ya tiene ese color, no es seguro :(
     }
-    return true;
+    return true; //ningun vecino tiene ese color, es seguro :)
 }
 
 void bt(int v) {
@@ -31,9 +31,9 @@ void bt(int v) {
 
     for (int c = 1; c <= k; c++) {
         if (EsSeguro(v, c)) {
-            color[v] = c;       // asignar color
-            bt(v + 1);          // pasar al siguiente vertice
-            color[v] = 0;       // aqui se hace el backtrack
+            color[v] = c;       // Se prueba este color en el vertice v
+            bt(v + 1);          // Aqui usamos recursion: pasar al siguiente vertice
+            color[v] = 0;       // aqui se hace el backtrack, se quita el color para probar el siguiente
         }
     }
 }

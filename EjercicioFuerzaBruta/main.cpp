@@ -43,3 +43,4 @@ int main() {
 
     return 0;
 }
+// Código desarrollado con apoyo de Claude (Anthropic, 2025).
